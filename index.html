@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Sharath-Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Somayajula Sai Sharath</h1>
+        <p>Java Full Stack Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+				<li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Iam a Java full stack developer who have some good expertise in developing java applications. I take every challenge and work on it, which helps me to build my career. </p>
+    </section>
+	
+	<section id="education">
+		<h2>My Education</h2>
+		<ul>
+			<li>
+				<p><strong>Bachelors of technology :</strong> Narsimha reddy Engineering College</p>
+				<p><strong>Branch :</strong> Computer Science Engineering</p>
+				<p><strong>CGPA :</strong> 7.0</p>
+			</li>
+			<li>
+				<p><strong>Intermediate :</strong> Narayna Junior College</p>
+				<p><strong>CGPA :</strong> 8.1</p>
+			</li>
+			<li>
+				<p><strong>SSC :</strong> Narayna High School</p>
+				<p><strong>CGPA :</strong>9.0</p>
+			</li>
+		<Ul>
+	</section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul id="project-list">
+            <li>
+                <h3 onclick="showProjectDetails('Project Title 1', 'This is a brief description of Project 1.', 'https://link-to-your-project1.com')">Project Title 1</h3>
+            </li>
+            <li>
+                <h3 onclick="showProjectDetails('Project Title 2', 'This is a brief description of Project 2.', 'https://link-to-your-project2.com')">Project Title 2</h3>
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+        <div id="project-details" style="display: none;">
+            <h3 id="project-title"></h3>
+            <p id="project-description"></p>
+            <a id="project-link" href="#" target="_blank">View Project</a>
+            <button onclick="hideProjectDetails()">Close</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, you can reach me at:</p>
+        <p>Email: <a href="mailto:your.email@example.com">saisharath2002@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sai939/">https://www.linkedin.com/in/sai939/</a></p>
+        <p>GitHub: <a href="https://github.com/Saisharath2002">https://github.com/Saisharath2002</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; [Current Year] Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
